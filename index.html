@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a CCIT student and aspiring game developer.">
+    <title>My Portfolio | CCIT Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">My<span>Portfolio</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hello, I'm <span>Prince</span>.</h1>
+                    <h2>CCIT Student & Aspiring Game Developer</h2>
+                    <p>
+                        I am a college student interested in programming, software development,
+                        and game development. I enjoy learning new technologies and turning ideas
+                        into useful and creative projects.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-card" aria-label="Profile introduction">
+                    <div class="profile-placeholder">
+    <img src="profile.jpg" alt="Prince profile photo">
+</div>
+                    <h3>Future Game Developer</h3>
+                    <p>Learn • Build • Improve</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ABOUT ME</p>
+                    <h2>Getting to know me</h2>
+                    <p>A little information about my background, interests, and goals.</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="about-card">
+                        <div class="icon">🎓</div>
+                        <h3>Student</h3>
+                        <p>
+                            I am a CCIT student currently developing my knowledge in programming,
+                            software engineering, databases, and web development.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <div class="icon">🎮</div>
+                        <h3>My Goal</h3>
+                        <p>
+                            My goal is to become a game developer and create interactive experiences
+                            that are enjoyable, creative, and meaningful.
+                        </p>
+                    </article>
+
+                    <article class="about-card">
+                        <div class="icon">🏍️</div>
+                        <h3>My Interest</h3>
+                        <p>
+                            Outside school, I enjoy riding my motorcycle, spending time with people
+                            close to me, and exploring new ideas and technologies.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">RESUME</p>
+                    <h2>My background</h2>
+                    <p>My education, technical skills, and academic experience.</p>
+                </div>
+
+                <div class="resume-grid">
+                    <div>
+                        <h3 class="resume-title">Education</h3>
+                        <div class="timeline">
+                            <article class="timeline-item">
+                                <span class="timeline-dot"></span>
+                                <p class="timeline-date">College</p>
+                                <h4>CCIT Student</h4>
+                                <p>
+                                    Studying computing and information technology with coursework
+                                    involving programming, software engineering, databases, and web development.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="resume-title">Technical Skills</h3>
+                        <div class="skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+
+                        <h3 class="resume-title capstone-heading">Capstone / Academic Work</h3>
+                        <article class="capstone-card">
+                            <h4>Hobby Streak</h4>
+                            <p>
+                                An Android application designed to help users build consistent
+                                habits around their chosen hobbies through goals, activity records,
+                                streak monitoring, rewards, and social features.
+                            </p>
+                            <a href="#projects">View Project →</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY WORK</p>
+                    <h2>Projects I've worked on</h2>
+                    <p>Some of my academic and programming projects.</p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <div class="project-content">
+                            <p class="project-type">SOFTWARE ENGINEERING</p>
+                            <h3>Hobby Streak</h3>
+                            <p>
+                                An Android application that encourages users to build consistent
+                                hobby habits by setting goals, recording activities, tracking streaks,
+                                submitting proof, and earning rewards.
+                            </p>
+                            <div class="tags">
+                                <span>Android</span>
+                                <span>Java</span>
+                                <span>Agile</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <div class="project-content">
+                            <p class="project-type">PROGRAMMING</p>
+                            <h3>Java & MySQL Projects</h3>
+                            <p>
+                                Academic applications developed using Java GUI components and MySQL
+                                databases, including CRUD operations and database connectivity.
+                            </p>
+                            <div class="tags">
+                                <span>Java</span>
+                                <span>NetBeans</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <div class="project-content">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Personal Portfolio</h3>
+                            <p>
+                                This responsive personal website built with semantic HTML, organized
+                                CSS, and JavaScript interactions.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-content">
+                <div class="section-heading">
+                    <p class="eyebrow">CONTACT</p>
+                    <h2>Let's connect</h2>
+                    <p>
+                        If you want to learn more about my projects or simply get in touch,
+                        you can contact me through the links below.
+                    </p>
+                </div>
+
+                <div class="contact-links">
+                    <a href="mailto:princeragadi1115@gmail.com" class="contact-card">
+                        <span class="contact-icon">✉</span>
+                        <span>
+                            <strong>Email</strong>
+                            <small>princeragadi1115@gmail.com</small>
+                        </span>
+                    </a>
+
+                    <a href="https://github.com/princeragadi1115-commits" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <span class="contact-icon">◉</span>
+                        <span>
+                            <strong>GitHub</strong>
+                            <small>github.com/princeragadi1115-commits</small>
+                        </span>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@garouxzz" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <span class="contact-icon">♪</span>
+                        <span>
+                            <strong>TikTok</strong>
+                            <small>@garouxzz</small>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="year"></span> Prince. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
